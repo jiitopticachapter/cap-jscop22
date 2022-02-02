@@ -771,9 +771,9 @@ h1 {
 
 .card {
     background: #fff;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05) !important;
     border: 1;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
 }
 
 .img-hover-zoom--colorize img {
@@ -783,7 +783,7 @@ h1 {
     margin-top: 20px;
     padding: 1px;
     transition: transform .5s;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
 }
 
 .img-hover-zoom--colorize:hover img {
@@ -1387,12 +1387,13 @@ accordions
 
 @media (max-width: 765px) {
   #frequently-question .left-text {
-    margin-bottom: 60px;
+    margin: 40px;
   }
 }
 
 .accordions {
   background-color: #f7f7f7;
+  margin:20px;
 }
 .accordion-head {
   padding: 20px;
@@ -1439,15 +1440,15 @@ contact
 .contact-container {
   flex: 0 1 700px;
   margin: auto;
-  padding: 20px;
-  width: 70%;
+  padding: 0 10px 0 10px;
+  width:60%;
   padding-bottom: 50px;
 }
-
 .screen {
   position: relative;
   background: #f5f5f5;
   border-radius: 15px;
+  width: 100%;
 }
 
 .screen:after {
@@ -1625,23 +1626,41 @@ input[type=email]
   }
 }
 
-@media screen and (max-width: 600px) {
-  .screen-body {
-    padding: 40px;
-  }
+@media screen and (max-width: 600px){
 
-  .screen-body-item {
-    padding: 0;
-  }
+
+.screen-body {
+    padding: 13px 0 0 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+}
+@media screen and (max-width: 520px)
+{.screen-body-item.left {
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}}
+@media screen and (max-width: 600px)
+{.screen-body-item {
+    padding: 0 11px 0 11px;
+    width: 100%;
+}
 }
 
-@media screen and (max-width: 994px) {
-  
+
+
+@media screen and (max-width: 900px){
+  .contact-container{
+    width:80%;
+  }
+
 }
-
-
-
-
 
 
 
