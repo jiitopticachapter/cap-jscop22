@@ -654,8 +654,6 @@ responsiblities
   color: #4ad1e5;
 }
 
-<<<<<<< HEAD:assets/css/templatemo-art-factory.css
-=======
 
 /* Team Cards */
 
@@ -752,7 +750,6 @@ h1 {
 
 /******************************************************************************************************************************* NAMAN EDITS ENDS HERE */
 
->>>>>>> f600bfbe86cf60bf939f2b0b4e0ec0c62c737059:assets/css/style.css
 .header-area .main-nav .nav li.submenu ul li a {
   display: block;
   background: #fff;
@@ -1584,36 +1581,6 @@ footer h3{
   font-weight: 500;
 }
 
-<<<<<<< HEAD:assets/css/templatemo-art-factory.css
-.footer-head{
-  justify-content: center;
-}
-.item{
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-    margin-top: -78px;
-    margin-bottom: 26px;
-}
-
-.social-menu ul{
-  width: 100%;
-  position: absolute;
-  padding: 0;
-  margin: 0;
-  /* transform: translate(-50%, -50%); */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.social-menu ul li{
-  list-style: none;
-  margin: 0 15px;
-}
-=======
 .contact-container {
   flex: 0 1 700px;
   margin: auto;
@@ -1818,7 +1785,6 @@ input[type=email]
 }
 
 
->>>>>>> f600bfbe86cf60bf939f2b0b4e0ec0c62c737059:assets/css/style.css
 
 .social-menu ul li .fab{
   font-size: 25px;
