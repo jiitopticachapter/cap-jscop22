@@ -778,20 +778,12 @@ h1 {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-<<<<<<< HEAD:assets/css/templatemo-art-factory.css
-  /* background: #f55858; */
-=======
   background: #3633ff;
->>>>>>> f600bfbe86cf60bf939f2b0b4e0ec0c62c737059:assets/css/style.css
 }
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-<<<<<<< HEAD:assets/css/templatemo-art-factory.css
-  /* color: #f55858; */
-=======
   color: #3633ff;
->>>>>>> f600bfbe86cf60bf939f2b0b4e0ec0c62c737059:assets/css/style.css
   padding-left: 25px;
 }
 
@@ -1017,11 +1009,7 @@ h1 {
   }
   .header-area .main-nav .nav > li > a:hover,
   .header-area .main-nav .nav .submenu > ul > li > a:hover {
-<<<<<<< HEAD:assets/css/templatemo-art-factory.css
-    /* color: #f55858; */
-=======
     color: #3633ff;
->>>>>>> f600bfbe86cf60bf939f2b0b4e0ec0c62c737059:assets/css/style.css
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
