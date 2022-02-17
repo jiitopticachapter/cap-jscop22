@@ -1463,8 +1463,9 @@ contact us starts
 
 .app-contact {
   margin-top: auto;
-  font-size: 10px;
+  font-size: 20px;
   color: rgb(109, 109, 109);
+  cursor: pointer;
 }
 
 .app-form-group {
