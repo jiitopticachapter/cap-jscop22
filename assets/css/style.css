@@ -1466,8 +1466,15 @@ contact us starts
   font-size: 20px;
   color: rgb(109, 109, 109);
   cursor: pointer;
+  word-wrap: normal;
 }
-
+@media screen and (max-width: 600px) {
+  .app-contact{
+   visibility:hidden;
+   font-size: 0;
+   margin:15px;
+  }
+}
 .app-form-group {
   margin-bottom: 15px;
 }
@@ -1527,9 +1534,9 @@ input[type=email]
     flex-direction: column;
   }
 
-  .screen-body-item.left {
+  /* .screen-body-item.left {
     margin-bottom: 30px;
-  }
+  } */
 
   .app-title {
     flex-direction: row;
