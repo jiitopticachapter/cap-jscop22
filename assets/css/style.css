@@ -1171,7 +1171,7 @@ TRY IT ... with or without CENTER CENTER
     font-weight: 600;
     font-size: 24px !important;
     line-height: 30px !important;
-    margin-bottom: 20px !important;
+    margin-bottom: -90px !important;
   }
   .welcome-area .header-text h1 span {
     color: #fff;
