@@ -3,10 +3,10 @@
 
 $(window).on('scroll', function () {
     if ($(this).scrollTop() > 70) { // Set position from top
-        $('.main-nav').addClass("shrink");
+        // $('.main-nav').addClass("shrink");
         $('.main-nav  img').attr('src', '/assets/images/logo-black.png');
     }else{
-        $('.main-nav').removeClass("shrink");
+        // $('.main-nav').removeClass("shrink");
         $('.main-nav  img').attr('src', './assets/images/logo-white.png');
     }
     });
