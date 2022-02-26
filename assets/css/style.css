@@ -1171,7 +1171,7 @@ TRY IT ... with or without CENTER CENTER
     font-weight: 600;
     font-size: 24px !important;
     line-height: 30px !important;
-    margin-bottom: 20px !important;
+    margin-bottom: -90px !important;
   }
   .welcome-area .header-text h1 span {
     color: #fff;
@@ -1463,10 +1463,18 @@ contact us starts
 
 .app-contact {
   margin-top: auto;
-  font-size: 10px;
+  font-size: 20px;
   color: rgb(109, 109, 109);
+  cursor: pointer;
+  word-wrap: normal;
 }
-
+@media screen and (max-width: 600px) {
+  .app-contact{
+   visibility:hidden;
+   font-size: 0;
+   margin:15px;
+  }
+}
 .app-form-group {
   margin-bottom: 15px;
 }
@@ -1526,9 +1534,9 @@ input[type=email]
     flex-direction: column;
   }
 
-  .screen-body-item.left {
+  /* .screen-body-item.left {
     margin-bottom: 30px;
-  }
+  } */
 
   .app-title {
     flex-direction: row;
