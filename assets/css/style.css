@@ -295,7 +295,6 @@ custom scroll
 
 ::-webkit-scrollbar-thumb {
   background: rgb(0, 217, 255);
-  /* border: 0.2em solid #4d485f; */
   border-radius: 100vw;
 }
 
