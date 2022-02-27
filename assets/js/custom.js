@@ -238,7 +238,7 @@ $(window).scroll(function() {
                         if ($(".cover").length) {
                             $(".cover").parallax({
                                 imageSrc: $(".cover").data("image"),
-                                zIndex: "1"
+                                
                             });
                         }
                         
@@ -252,7 +252,7 @@ $(window).scroll(function() {
                                     $("#preloader")
                                     .css("visibility", "hidden")
                                     .fadeOut();
-                                }, 300);
+                                }, 100);
                             }
                             );
                         });
