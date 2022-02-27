@@ -1,15 +1,17 @@
 
 // Changing logo to black
 
-$(window).on('scroll', function () {
-    if ($(this).scrollTop() > 70) { // Set position from top
-        $('.main-nav').addClass("shrink");
-        $('.main-nav  img').attr('src', '/assets/images/logo-black.png');
-    }else{
-        $('.main-nav').removeClass("shrink");
-        $('.main-nav  img').attr('src', './assets/images/logo-white.png');
+var initialSrc = "./assets/images/logo-white.png";
+var scrollSrc = "./assets/images/logo-black.png";
+
+$(window).scroll(function() {
+    var value = $(this).scrollTop();
+    if (value > 200){
+        $(".logo").attr("src", scrollSrc);
     }
-    });
+    else
+        $(".logo").attr("src", initialSrc);
+});
 
 (function($) {
     "use strict";
