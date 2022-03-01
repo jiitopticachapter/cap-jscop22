@@ -656,12 +656,19 @@ responsiblities
   justify-content: center;
   align-items: center;
 }
+.plus{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+}
 .counter {
+  
   background-color: #ffffff;
   padding: 20px 0;
   border-radius: 15px;
   justify-content: center;
+  
   border:#d8d8d8;
   margin: 30px;
   min-width: 200px;
